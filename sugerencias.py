@@ -23,6 +23,10 @@ nombre_pelicula5="¿Què pasò ayer?"
 genero_pelicula5="Comedia"
 anio_pelicula5=2009
 rating_pelicula5=7.7
+nombre_pelicula6="¿Y donde estan las rubias?"
+genero_pelicula6="Comedia"
+anio_pelicula6=2004
+rating_pelicula6=6.0
 print("-------- GÈNEROS --------")
 print("Accion")
 print("Comedia")
@@ -43,5 +47,8 @@ if(genero_pelicula4==genero_favorito):
 
 if(genero_pelicula5==genero_favorito):
 	print(nombre_pelicula5)
+
+if(genero_pelicula6==genero_favorito):
+	print(nombre_pelicula6)
 	
 
